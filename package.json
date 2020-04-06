@@ -1,0 +1,19 @@
+{
+  "name": "chat-cord",
+  "version": "1.0.0",
+  "description": "Realtime Chat With Users & Rooms - Socket.io, Node & Express",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mosmartin/chat-cord.git"
+  },
+  "author": "Martin Macharia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mosmartin/chat-cord/issues"
+  },
+  "homepage": "https://github.com/mosmartin/chat-cord#readme"
+}
