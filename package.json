@@ -4,6 +4,8 @@
   "description": "Realtime Chat With Users & Rooms - Socket.io, Node & Express",
   "main": "server.js",
   "scripts": {
+    "start": "node server",
+    "dev": "nodemon server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +17,13 @@
   "bugs": {
     "url": "https://github.com/mosmartin/chat-cord/issues"
   },
-  "homepage": "https://github.com/mosmartin/chat-cord#readme"
+  "homepage": "https://github.com/mosmartin/chat-cord#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.24.0",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
 }
